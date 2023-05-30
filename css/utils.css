@@ -1,0 +1,46 @@
+.wrapper {
+  padding: 1rem;
+  margin: 2rem auto;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+.f_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_column {
+  flex-direction: column;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 1.5rem;
+  margin-bottom: 1.1rem;
+  margin: 1.1rem 1.5rem 1.1rem;
+}
+
+@media (max-width: 992px) {
+  .card {
+    text-align: center;
+  }
+}
