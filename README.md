@@ -1,2 +1,2 @@
 # FRONT END INTERN ENTRY TEST
-
+* Using vanilla HTML + CSS
